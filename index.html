@@ -243,6 +243,48 @@
     background:#fbfdff;  
     margin-top:12px;  
   }  
+  /* LOGO */
+.logo-box {
+    width: 75px;
+    height: 75px;
+    min-width: 75px;
+}
+
+.logo-box img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    display: block;
+}
+
+/* TITLE */
+.school-title {
+    text-align: center;
+    flex: 1;
+}
+
+.school-title h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.school-title p {
+    margin: 0;
+}
+
+/* PRINT LOCK */
+@media print {
+    .school-header {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .logo-box img {
+        width: 70px !important;
+        height: 70px !important;
+    }
+}
   .badge{  
     display:inline-block;  
     padding:4px 8px;  
